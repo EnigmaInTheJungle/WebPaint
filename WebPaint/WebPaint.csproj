@@ -75,6 +75,31 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="main.html" />
+    <Content Include="resources\CenterAling.PNG" />
+    <Content Include="resources\CloseAllTab.PNG" />
+    <Content Include="resources\CloseTab.PNG" />
+    <Content Include="resources\Color.PNG" />
+    <Content Include="resources\Language.PNG" />
+    <Content Include="resources\Load.PNG" />
+    <Content Include="resources\LoadC.PNG" />
+    <Content Include="resources\LSideAlign.PNG" />
+    <Content Include="resources\NewTab.PNG" />
+    <Content Include="resources\R.PNG" />
+    <Content Include="resources\RotateTextL.PNG" />
+    <Content Include="resources\RotateTextR.PNG" />
+    <Content Include="resources\RSideAlign.PNG" />
+    <Content Include="resources\Save.PNG" />
+    <Content Include="resources\SaveC.PNG" />
+    <Content Include="resources\Settings.PNG" />
+    <Content Include="resources\TextInput.PNG" />
+    <Content Include="resources\TextPos1.PNG" />
+    <Content Include="resources\TextPos2.PNG" />
+    <Content Include="scripts\menubar.js" />
+    <Content Include="scripts\toolbar.js" />
+    <Content Include="scripts\ucommand.js" />
+    <Content Include="scripts\xcommand.js" />
+    <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
