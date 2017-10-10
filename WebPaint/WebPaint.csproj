@@ -95,7 +95,11 @@
     <Content Include="resources\TextInput.PNG" />
     <Content Include="resources\TextPos1.PNG" />
     <Content Include="resources\TextPos2.PNG" />
+    <Content Include="scripts\drawing.js" />
     <Content Include="scripts\menubar.js" />
+    <Content Include="scripts\acommand.js" />
+    <Content Include="scripts\plugins\simple_figure\figure.js" />
+    <Content Include="scripts\plugins\simple_figure\simple_figure.js" />
     <Content Include="scripts\toolbar.js" />
     <Content Include="scripts\ucommand.js" />
     <Content Include="scripts\xcommand.js" />

@@ -1,7 +1,7 @@
 
 function xCommand()
 {
-
+    var data;
 }
 
 xCommand.prototype.addTab = function()
