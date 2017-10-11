@@ -95,14 +95,16 @@
     <Content Include="resources\TextInput.PNG" />
     <Content Include="resources\TextPos1.PNG" />
     <Content Include="resources\TextPos2.PNG" />
-    <Content Include="scripts\drawing.js" />
-    <Content Include="scripts\menubar.js" />
-    <Content Include="scripts\acommand.js" />
+    <Content Include="scripts\Drawing.js" />
+    <Content Include="scripts\General.js" />
+    <Content Include="scripts\menuBar.js" />
+    <Content Include="scripts\aCommand.js" />
     <Content Include="scripts\plugins\simple_figure\figure.js" />
     <Content Include="scripts\plugins\simple_figure\simple_figure.js" />
-    <Content Include="scripts\toolbar.js" />
-    <Content Include="scripts\ucommand.js" />
-    <Content Include="scripts\xcommand.js" />
+    <Content Include="scripts\toolBar.js" />
+    <Content Include="scripts\toolBox.js" />
+    <Content Include="scripts\uCommand.js" />
+    <Content Include="scripts\xCommand.js" />
     <Content Include="style.css" />
     <Content Include="Web.config" />
   </ItemGroup>

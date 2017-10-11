@@ -1,7 +1,8 @@
 
 function xCommand()
 {
-    var data;
+    this.data = null;
+    this.plugin = null;
 }
 
 xCommand.prototype.addTab = function()
@@ -77,4 +78,12 @@ xCommand.prototype.showHelp = function()
 xCommand.prototype.exit = function()
 {
 	alert("exit");
+};
+
+xCommand.prototype.setPlugin = function (plugin) {
+    if (this.plugin === null || this.plugin.name !== plugin.name) {
+        this.plugin = plugin;
+        this.data = plugin.data;
+        plugin.addToolBar();
+    }
 };

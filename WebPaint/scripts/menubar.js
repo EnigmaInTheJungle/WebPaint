@@ -21,8 +21,6 @@ var mUkr = document.getElementById("mUkr");
 var mAbout = document.getElementById("mAbout");
 var mShowHelp = document.getElementById("mShowHelp");
 
-setMenuActions(new xCommand());
-
 function setMenuActions(command)
 {
 	mNew.onclick = command.addTab;

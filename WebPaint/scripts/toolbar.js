@@ -7,9 +7,7 @@ var tSaveC = document.getElementById("tSaveC");
 var tLoadC = document.getElementById("tLoadC");
 
 
-setMenuActions(new xCommand());
-
-function setMenuActions(command)
+function setToolActions(command)
 {
 	tNew.onclick = command.addTab;
 	tClose.onclick = command.closeTab;

@@ -8,25 +8,27 @@ var x;
 var y;
 var isDrawingStarted = false;
 
+
 function startDrawing(e) {
     x = e.offsetX;
     y = e.offsetY;
 }
 function Drawing(e) {
-    if (e.buttons === 1) {
-
-        var figure = new Figure(new Point(x, y), new Point(e.offsetX, e.offsetY), new Data());
+    if (e.buttons === 1 && xcommand.plugin !== null) {
+        xcommand.plugin.figure = new Figure(new Point(x, y), new Point(e.offsetX, e.offsetY), xcommand.data);
         if (svg.childElementCount > 0 && isDrawingStarted === true) {
             svg.removeChild(svg.lastChild);
         }
         isDrawingStarted = true;
-        svg.appendChild(figure.getPath());
+        svg.appendChild(xcommand.plugin.figure.getPath());
     }
 }
 
 function finishDrawing(e) {
-    var figure = new Figure(new Point(x, y), new Point(e.offsetX, e.offsetY), new Data());
-    svg.appendChild(figure.getPath());
-    isDrawingStarted = false;
+    if (xcommand.plugin !== null) {
+        xcommand.plugin.figure = new Figure(new Point(x, y), new Point(e.offsetX, e.offsetY), xcommand.data);
+        svg.appendChild(xcommand.plugin.figure.getPath());
+        isDrawingStarted = false;
+    }
 }
 
